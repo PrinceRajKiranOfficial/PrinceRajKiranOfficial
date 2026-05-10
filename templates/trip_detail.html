@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<article class="detail-card">
+  <h2>{{ trip.title }}</h2>
+  <p><strong>Route:</strong> {{ trip.start_place }} → {{ trip.end_place }}</p>
+  <p><strong>Schedule:</strong> {{ trip.start_date }} to {{ trip.end_date }}</p>
+  <p><strong>Status:</strong> {{ trip.status }} | <strong>Total Budget:</strong> ₹{{ '%.2f'|format(trip.budget) }}</p>
+  <h3>Trip Notes</h3>
+  <p>{{ trip.notes or 'No notes added yet.' }}</p>
+</article>
+<section>
+  <h3>Itinerary</h3>
+  {% for item in items %}
+    <div class="trip-card">
+      Day {{ item.day_number }} | {{ item.section_title }} - {{ item.activity }}
+    </div>
+  {% else %}
+    <p>No itinerary sections yet.</p>
+  {% endfor %}
+</section>
+{% endblock %}

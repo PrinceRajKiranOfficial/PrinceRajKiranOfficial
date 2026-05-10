@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="form-shell">
+  <h2>Registration Screen</h2>
+  <form method="post" class="form-grid">
+    <input name="first_name" placeholder="First Name" required>
+    <input name="last_name" placeholder="Last Name" required>
+    <input name="email" type="email" placeholder="Email Address" required>
+    <input name="phone" placeholder="Phone Number">
+    <input name="city" placeholder="City">
+    <input name="country" placeholder="Country">
+    <textarea name="bio" rows="4" placeholder="Additional information..."></textarea>
+    <button type="submit">Register User</button>
+  </form>
+</section>
+{% endblock %}

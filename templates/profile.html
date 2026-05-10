@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>User Profile</h2>
+{% for user in users %}
+<article class="detail-card">
+  <p><strong>{{ user.first_name }} {{ user.last_name }}</strong></p>
+  <p>{{ user.email }} | {{ user.phone }}</p>
+  <p>{{ user.city }}, {{ user.country }}</p>
+  <p>{{ user.bio }}</p>
+</article>
+{% else %}
+<p>No registered user yet.</p>
+{% endfor %}
+<h3>Preplanned Trips</h3>
+<div class="card-grid">
+  {% for trip in trips %}
+  <div class="trip-card"><a href="{{ url_for('trip_detail', trip_id=trip.id) }}">{{ trip.title }}</a></div>
+  {% endfor %}
+</div>
+{% endblock %}

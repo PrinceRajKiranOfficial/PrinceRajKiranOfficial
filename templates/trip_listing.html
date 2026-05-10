@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>User Trip Listing</h2>
+{% for status in ['Ongoing','Upcoming','Completed'] %}
+<section>
+  <h3>{{ status }}</h3>
+  {% for trip in trips if trip.status == status %}
+  <div class="trip-card">
+    <h4>{{ trip.title }}</h4>
+    <p>{{ trip.start_place }} → {{ trip.end_place }}</p>
+  </div>
+  {% else %}
+  <p>No {{ status.lower() }} trips.</p>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="form-shell">
+  <h2>Build Itinerary: {{ trip.title }}</h2>
+  <form method="post" class="form-grid">
+    <input type="number" name="day_number" min="1" value="1" placeholder="Day Number" required>
+    <input name="section_title" placeholder="Section title" required>
+    <input name="activity" placeholder="Activity details" required>
+    <input name="travel_time" placeholder="Travel time">
+    <input type="number" step="0.01" name="allocated_budget" placeholder="Budget for this section">
+    <button type="submit">+ Add another section</button>
+  </form>
+</section>
+<section>
+  <h3>Saved Sections</h3>
+  <div class="card-grid">
+    {% for item in items %}
+      <article class="trip-card">
+        <h4>Day {{ item.day_number }} - {{ item.section_title }}</h4>
+        <p>{{ item.activity }}</p>
+        <p>Travel: {{ item.travel_time or 'N/A' }}</p>
+        <p>Budget: ₹{{ '%.2f'|format(item.allocated_budget) }}</p>
+      </article>
+    {% else %}
+      <p>No sections yet.</p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

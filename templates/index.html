@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+  <h2>Main Landing Page</h2>
+  <p>Inspired by your wireframe: track ongoing, upcoming, and completed trips.</p>
+</section>
+<section>
+  <h3>Top Regional Selections</h3>
+  <div class="card-grid">
+    {% for trip in featured %}
+      <article class="trip-card">
+        <h4>{{ trip.title }}</h4>
+        <p>{{ trip.start_place }} → {{ trip.end_place }}</p>
+      </article>
+    {% else %}
+      <p>Create trips to see featured destinations.</p>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <h3>Previous Trips</h3>
+  <div class="card-grid">
+    {% for trip in trips %}
+      <article class="trip-card">
+        <h4>{{ trip.title }}</h4>
+        <p><strong>Status:</strong> {{ trip.status }}</p>
+        <p><strong>Dates:</strong> {{ trip.start_date }} → {{ trip.end_date }}</p>
+        <a href="{{ url_for('trip_detail', trip_id=trip.id) }}">View itinerary</a>
+      </article>
+    {% else %}
+      <p>No trips yet. Create your first trip.</p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
