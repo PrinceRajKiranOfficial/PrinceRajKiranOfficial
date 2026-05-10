@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<article class="detail-card">
+  <h2>{{ trip.title }}</h2>
+  <p><strong>Route:</strong> {{ trip.start_place }} → {{ trip.end_place }}</p>
+  <p><strong>Schedule:</strong> {{ trip.start_date }} to {{ trip.end_date }}</p>
+  <h3>Trip Notes</h3>
+  <p>{{ trip.notes or 'No notes added yet.' }}</p>
+</article>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="form-shell">
+  <h2>Create a New Trip</h2>
+  <form method="post" class="form-grid">
+    <input name="title" placeholder="Trip Name" required>
+    <input name="start_place" placeholder="Start Place" required>
+    <input name="end_place" placeholder="End Place" required>
+    <label>Start Date <input name="start_date" type="date" required></label>
+    <label>End Date <input name="end_date" type="date" required></label>
+    <textarea name="notes" rows="5" placeholder="Additional trip information..."></textarea>
+    <button type="submit">Save Trip</button>
+  </form>
+</section>
+{% endblock %}

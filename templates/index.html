@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+  <h2>Main Landing Page</h2>
+  <p>Plan your next journey and track all your trips in one place.</p>
+</section>
+
+<section>
+  <h3>Previous Trips</h3>
+  <div class="card-grid">
+    {% for trip in trips %}
+      <article class="trip-card">
+        <h4>{{ trip.title }}</h4>
+        <p><strong>From:</strong> {{ trip.start_place }}</p>
+        <p><strong>To:</strong> {{ trip.end_place }}</p>
+        <p><strong>Dates:</strong> {{ trip.start_date }} → {{ trip.end_date }}</p>
+        <a href="{{ url_for('trip_detail', trip_id=trip.id) }}">View itinerary</a>
+      </article>
+    {% else %}
+      <p>No trips yet. Create your first trip.</p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
