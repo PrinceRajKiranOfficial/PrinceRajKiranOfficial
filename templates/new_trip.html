@@ -8,8 +8,14 @@
     <input name="end_place" placeholder="End Place" required>
     <label>Start Date <input name="start_date" type="date" required></label>
     <label>End Date <input name="end_date" type="date" required></label>
-    <textarea name="notes" rows="5" placeholder="Additional trip information..."></textarea>
-    <button type="submit">Save Trip</button>
+    <input name="budget" type="number" step="0.01" placeholder="Total Budget">
+    <select name="status">
+      <option>Upcoming</option>
+      <option>Ongoing</option>
+      <option>Completed</option>
+    </select>
+    <textarea name="notes" rows="4" placeholder="Suggested places and notes..."></textarea>
+    <button type="submit">Save Trip & Build Itinerary</button>
   </form>
 </section>
 {% endblock %}

@@ -12,20 +12,20 @@
     <nav>
       <a href="{{ url_for('register') }}">Register</a>
       <a href="{{ url_for('new_trip') }}">Create Trip</a>
+      <a href="{{ url_for('trip_listing') }}">Trips</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
     </nav>
   </header>
-
   <main class="container">
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
-        <ul class="flash-list">
-          {% for category, message in messages %}
-            <li class="flash {{ category }}">{{ message }}</li>
-          {% endfor %}
-        </ul>
+      <ul class="flash-list">
+        {% for category, message in messages %}
+        <li class="flash {{ category }}">{{ message }}</li>
+        {% endfor %}
+      </ul>
       {% endif %}
     {% endwith %}
-
     {% block content %}{% endblock %}
   </main>
 </body>

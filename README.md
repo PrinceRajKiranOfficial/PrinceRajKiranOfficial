@@ -1,53 +1,37 @@
-# Travel Planner (Flask + HTML/CSS)
+# Travel Planner Full Stack App
 
-A full-stack starter project inspired by your wireframes:
-- Frontend: HTML + CSS (Jinja templates)
+Flask + HTML/CSS application based on your multi-screen travel planner wireframe.
+
+## What is included
+- Login/registration style onboarding screen (`/register`)
+- Main dashboard style page (`/`)
+- Create trip flow (`/trip/new`)
+- Build itinerary sections (`/trip/<id>/itinerary`)
+- Trip detail and listing pages (`/trip/<id>`, `/trips`)
+- Profile page (`/profile`)
+- Local database with **SQLite (stdlib `sqlite3`)** — no ORM dependency required
+
+## Tech stack
 - Backend: Flask
-- Local database option: SQLite (default)
-
-## Features
-- User registration form
-- Create and save trips
-- Trip listing on the home page
-- Trip details page
-- Local SQLite database via SQLAlchemy
-
-## Project structure
-```
-.
-├── app.py
-├── requirements.txt
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   ├── register.html
-│   ├── new_trip.html
-│   └── trip_detail.html
-└── static/css/style.css
-```
+- Frontend: HTML templates + CSS
+- Local DB: SQLite (`travelplanner.db` auto-created)
 
 ## Run locally
-1. Create virtual environment
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
-2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Start app
-   ```bash
-   python app.py
-   ```
-4. Open `http://127.0.0.1:5000`
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+Then open: `http://127.0.0.1:5000`
 
-## Optional: initialize DB manually
+## Initialize DB manually
 ```bash
 flask --app app init-db
 ```
 
-## Notes for GitHub upload
-- Repo is already organized with templates/static separation.
-- `.gitignore` excludes local DB and virtualenv files.
-- You can add GitHub Actions later for tests/deploy.
+## GitHub-ready structure
+- `app.py` backend entrypoint
+- `templates/` all pages
+- `static/css/style.css` shared styling
+- `.gitignore` excludes virtualenv and sqlite DB artifacts
