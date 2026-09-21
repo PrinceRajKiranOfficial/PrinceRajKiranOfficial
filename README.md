@@ -56,21 +56,21 @@ public:
 │                     SYSTEM PROFILE                           │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  NAME       : Prince Raj Kiran                              │
-│  FIELD      : Computer Science Engineering                  │
-│  STATUS     : Learning • Building • Experimenting           │
+│  NAME       : Prince Raj Kiran                               │
+│  FIELD      : Computer Science Engineering                   │
+│  STATUS     : Learning • Building • Experimenting            │ 
 │                                                              │
-│  FOCUS                                                        │
-│  ├── Software Development                                   │
+│  FOCUS                                                       │
+│  ├── Software Development                                    │
 │  ├── Data Structures & Algorithms                            │
 │  ├── Web Development                                         │
 │  ├── Cloud Computing                                         │
 │  ├── Cybersecurity                                           │
 │  ├── Automation                                              │
-│  └── Artificial Intelligence                                │
+│  └── Artificial Intelligence                                 │
 │                                                              │
 │  PHILOSOPHY                                                  │
-│  └── Turn ideas into working software.                      │
+│  └── Turn ideas into working software.                       │
 │                                                              │
 ╰──────────────────────────────────────────────────────────────╯
 ```
