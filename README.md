@@ -124,7 +124,7 @@ public:
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
 │  [01]  Master Data Structures & Algorithms        ACTIVE     │
-│  [02]  Build Real-World Projects                 ACTIVE     │
+│  [02]  Build Real-World Projects                 ACTIVE      │
 │  [03]  Explore AWS & Cloud Computing              ACTIVE     │
 │  [04]  Learn Cybersecurity                        ACTIVE     │
 │  [05]  Explore Artificial Intelligence            ACTIVE     │
