@@ -1,53 +1,32 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=900&color=00F7FF&center=true&vCenter=true&width=800&height=60&lines=PRINCE+RAJ+KIRAN;COMPUTER+SCIENCE+ENGINEER;DEVELOPER+%7C+BUILDER+%7C+PROBLEM+SOLVER;TURNING+IDEAS+INTO+CODE" alt="Typing SVG" />
+<img src="./assets/header.svg" alt="Prince Raj Kiran Header">
 
-<br>
+# `Prince Raj Kiran`
 
-<img src="https://img.shields.io/badge/Computer%20Science-Engineer-00F7FF?style=for-the-badge&labelColor=0D1117" alt="Computer Science Engineer"/>
-<img src="https://img.shields.io/badge/Always-Learning-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="Always Learning"/>
-<img src="https://img.shields.io/badge/Build-Create-22C55E?style=for-the-badge&labelColor=0D1117" alt="Build Create"/>
+### `Computer Science Engineer • Developer • Builder`
 
-<br><br>
-
-<a href="https://github.com/PrinceRajKiranOfficial">
-<img src="https://img.shields.io/github/followers/PrinceRajKiranOfficial?label=Followers&style=flat-square&color=00F7FF&labelColor=0D1117" alt="GitHub Followers"/>
-</a>
-
-<a href="https://github.com/PrinceRajKiranOfficial?tab=repositories">
-<img src="https://img.shields.io/github/stars/PrinceRajKiranOfficial?affiliations=OWNER&style=flat-square&color=8B5CF6&labelColor=0D1117&label=Stars" alt="GitHub Stars"/>
-</a>
+<p>
+  <a href="https://github.com/PrinceRajKiranOfficial">
+    <img src="https://img.shields.io/badge/GitHub-PrinceRajKiranOfficial-0D1117?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/C%2B%2B-Expertise-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-Development-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Java-Development-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+</p>
 
 </div>
 
 ---
 
-# `> whoami`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                     PRINCE RAJ KIRAN                         │
-├──────────────────────────────────────────────────────────────┤
-│  Role        : Computer Science Engineering Student          │
-│  Focus       : Software Development                          │
-│  Environment : Windows / Linux                               │
-│  Languages   : C++ • Java • Python • JavaScript              │
-│  Interests   : Web • Cloud • Cybersecurity • Automation      │
-│  Mindset     : Learn → Build → Break → Fix → Improve        │
-└──────────────────────────────────────────────────────────────┘
-```
-
-> I enjoy building things that solve real problems, experimenting with technology, and learning by actually writing code.
-
----
-
-# `> ./about-me`
+## `> whoami`
 
 ```cpp
 #include <iostream>
 #include <vector>
 
-class PrinceRajKiran {
+class PrinceRajKiran
+{
 public:
 
     std::string name = "Prince Raj Kiran";
@@ -64,73 +43,124 @@ public:
     };
 
     std::string philosophy =
-        "Build something. Break something. Learn something.";
+        "Learn. Build. Break. Fix. Improve.";
 };
 ```
 
 ---
 
-# `> tech_stack --list`
-
-### Languages
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=cpp,java,python,js,html,css" alt="Programming Languages"/>
-</p>
-
-### Development
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=flask,spring,mysql,git,github,vscode,postman" alt="Development Tools"/>
-</p>
-
-### Cloud • Systems • Tools
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=aws,docker,linux,powershell,windows" alt="Cloud and Tools"/>
-</p>
-
----
-
-# `> system.status`
+## `> about_me`
 
 ```text
-╭────────────────────────────────────────────────────────────╮
-│                    CURRENTLY BUILDING                      │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│  [01]  Web Applications             ███████████░░  ACTIVE  │
-│  [02]  Automation Tools             ██████████░░░  ACTIVE  │
-│  [03]  Cloud / AWS                   ████████░░░░░  LEARN   │
-│  [04]  Cybersecurity                 ███████░░░░░░  LEARN   │
-│  [05]  Artificial Intelligence      ██████░░░░░░░  EXPLORE │
-│  [06]  Data Structures & Algorithms █████████░░░░  ACTIVE  │
-│                                                            │
-╰────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────╮
+│                     SYSTEM PROFILE                           │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  NAME       : Prince Raj Kiran                              │
+│  FIELD      : Computer Science Engineering                  │
+│  STATUS     : Learning • Building • Experimenting           │
+│                                                              │
+│  FOCUS                                                        │
+│  ├── Software Development                                   │
+│  ├── Data Structures & Algorithms                            │
+│  ├── Web Development                                         │
+│  ├── Cloud Computing                                         │
+│  ├── Cybersecurity                                           │
+│  ├── Automation                                              │
+│  └── Artificial Intelligence                                │
+│                                                              │
+│  PHILOSOPHY                                                  │
+│  └── Turn ideas into working software.                      │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
 ```
 
 ---
 
-# `> projects`
+# `> tech_stack`
 
-<div align="center">
+### Languages
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+
+</p>
+
+### Web
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring">
+
+</p>
+
+### Cloud & Tools
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+
+</p>
+
+---
+
+# `> current_mission`
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                         MISSION CONTROL                      │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  [01]  Master Data Structures & Algorithms        ACTIVE     │
+│  [02]  Build Real-World Projects                 ACTIVE     │
+│  [03]  Explore AWS & Cloud Computing              ACTIVE     │
+│  [04]  Learn Cybersecurity                        ACTIVE     │
+│  [05]  Explore Artificial Intelligence            ACTIVE     │
+│  [06]  Improve Software Engineering Skills        ACTIVE     │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# `> featured_projects`
 
 <table>
 <tr>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🔐 Cybersecurity
+## `01` 🔐 Cybersecurity
 
-Security-focused development and experimentation involving threat detection, monitoring and defensive technologies.
+Building security-oriented applications and experimenting with threat detection, monitoring and defensive technologies.
+
+**Focus**
+
+`Security` `Detection` `Python` `Web`
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🌐 Web Development
+## `02` 🌐 Web Applications
 
-Building practical web applications with clean interfaces and useful backend functionality.
+Developing practical applications with frontend interfaces, backend services and databases.
+
+**Focus**
+
+`HTML` `CSS` `JavaScript` `Flask` `Java`
 
 </td>
 
@@ -138,124 +168,123 @@ Building practical web applications with clean interfaces and useful backend fun
 
 <tr>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🤖 Automation
+## `03` 🤖 Automation
 
-Creating utilities that automate repetitive tasks and improve workflows.
+Creating tools that automate repetitive tasks and improve workflows.
+
+**Focus**
+
+`Python` `Automation` `APIs` `Desktop Tools`
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### ☁️ Cloud
+## `04` ☁️ Cloud
 
-Exploring AWS, deployment, cloud architecture and infrastructure.
+Learning cloud architecture, deployment and infrastructure using AWS.
+
+**Focus**
+
+`AWS` `Cloud` `Deployment` `Infrastructure`
 
 </td>
 
 </tr>
-
 </table>
-
-</div>
 
 ---
 
 # `> coding_philosophy`
 
 ```python
-while True:
+def developer_life():
 
-    learn()
+    while True:
 
-    build()
+        learn()
 
-    experiment()
+        build()
 
-    if error:
+        experiment()
+
+        encounter_error()
+
         debug()
 
-    improve()
+        understand()
+
+        improve()
 ```
 
-### The rules are simple:
-
 ```text
-01. Don't just watch tutorials.
-02. Write the code.
-03. Break the code.
-04. Understand why it broke.
-05. Fix it.
-06. Build something better.
-07. Repeat.
+LEARN
+  ↓
+BUILD
+  ↓
+BREAK
+  ↓
+DEBUG
+  ↓
+UNDERSTAND
+  ↓
+IMPROVE
+  ↓
+REPEAT
 ```
 
 ---
 
-# `> github --stats`
+# `> development_environment`
+
+```text
+OS              → Windows / Linux
+Editor          → VS Code
+Languages       → C++ / Java / Python / JavaScript
+Version Control → Git / GitHub
+Cloud           → AWS
+Backend         → Flask / Spring
+Database        → MySQL
+Terminal        → PowerShell / Linux Shell
+```
+
+---
+
+# `> github`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=PrinceRajKiranOfficial&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="GitHub Statistics"/>
+<a href="https://github.com/PrinceRajKiranOfficial?tab=repositories">
+
+<img src="https://img.shields.io/badge/EXPLORE-MY%20REPOSITORIES-00F7FF?style=for-the-badge&labelColor=0D1117" alt="Explore Repositories">
+
+</a>
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrinceRajKiranOfficial&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
-
-</div>
-
-> **Note:** GitHub statistics are generated dynamically and depend on the availability of the stats service. For maximum reliability, these cards can later be replaced with GitHub Actions-generated static cards.
-
----
-
-# `> contribution.log`
-
-```text
-$ git log --oneline
-
-learning...      ████████████████████
-building...      ██████████████████░░
-experimenting... ███████████████░░░░░
-debugging...     █████████████████░░░
-creating...      ███████████████████░
-```
-
-<div align="center">
-
 <a href="https://github.com/PrinceRajKiranOfficial">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
-</a>
 
-<a href="https://github.com/PrinceRajKiranOfficial?tab=repositories">
-<img src="https://img.shields.io/badge/Repositories-Explore-00F7FF?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/>
+<img src="https://img.shields.io/badge/FOLLOW-PRINCE%20RAJ%20KIRAN-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="Follow">
+
 </a>
 
 </div>
 
 ---
 
-# `> roadmap`
+# `> goals`
 
 ```text
-                         2026
-                           │
-             ┌─────────────┼─────────────┐
-             ↓             ↓             ↓
-          DSA           CLOUD        SECURITY
-             │             │             │
-             └─────────────┼─────────────┘
-                           ↓
-                      DEVELOPMENT
-                           │
-                           ↓
-                         BUILD
-                           │
-                           ↓
-                    REAL WORLD PROJECTS
-                           │
-                           ↓
-                     KEEP LEARNING
+2026
+
+[██████████████████░░]  Data Structures & Algorithms
+[████████████████░░░░]  Java & Spring
+[██████████████░░░░░░]  AWS & Cloud
+[████████████░░░░░░░░]  Cybersecurity
+[███████████░░░░░░░░░]  Artificial Intelligence
+[███████████████░░░░░]  Real-World Projects
 ```
 
 ---
@@ -265,13 +294,9 @@ creating...      ███████████████████░
 <div align="center">
 
 <a href="https://github.com/PrinceRajKiranOfficial">
-<img src="https://img.shields.io/badge/GitHub-PrinceRajKiranOfficial-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-</a>
 
-<br><br>
+<img src="https://img.shields.io/badge/GitHub-PrinceRajKiranOfficial-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 
-<a href="mailto:your-email@example.com">
-<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 </div>
@@ -280,17 +305,9 @@ creating...      ███████████████████░
 
 <div align="center">
 
-```text
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│       "THE BEST WAY TO PREDICT THE FUTURE               │
-│                 IS TO BUILD IT."                        │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+<img src="./assets/footer.svg" alt="Prince Raj Kiran Footer">
 
-### `EOF`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F7FF,50:8B5CF6,100:0D1117" alt="Footer"/>
+### `while(alive) { keep_building(); }`
 
 </div>
+s
